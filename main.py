@@ -5,7 +5,7 @@ import random
 import pandas as pd
 
 # APIキーを設定
-openai.api_key = "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"
+api_key = os.getenv("OPENAI_API_KEY")
 gmaps = googlemaps.Client(key='AIzaSyC7MCzsFZqsGH1wQaGnxV7YfLfJqef_ROM')
 
 
